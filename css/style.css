@@ -1,0 +1,301 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ----- */
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+}
+
+nav{
+    width: 100%;
+    height: 12vh;
+    color: black;
+    background: white;
+    font-size: 2.5em;
+    font-weight: 500;
+    /* margin-left: 355px; */
+}
+
+ul{
+    float: left;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+ul:hover{
+    opacity: 0.5;
+}
+
+span{
+    text-decoration-line: underline;
+}
+
+.intro{
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.begin{
+    margin-left: 13vw;
+    margin-top: 18vh;
+}
+
+.lijn{
+    background: black;
+    width: 10px;
+    height: 430px;
+    position: absolute;
+    left: 704px;
+    top: 151px;
+}
+
+h1{
+    font-size: 12em;
+    float: left;
+}
+
+h2{
+    font-size: 6em;
+    float: right;
+    margin-right: 315px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+h3{
+    font-size: 3em;
+    font-weight: 600;
+    float: right;
+    margin-right: 408px;
+    margin-top: 30px;
+}
+
+#scroll{
+    width: 30px;
+    height: 71px;
+    position: relative;
+    top: 415px;
+    left: 40px;
+}
+
+.about-me{
+    width: 100%;
+    height: 90vh;
+}
+
+.titel-left{
+    width: 55vw;
+    height: 8vh;
+}
+
+.titel-left h2{
+    font-size: 4em;
+    font-weight: 500;
+    margin-top: -44px;
+}
+
+.streepje{
+    width: 10px;
+    height: 50px;
+    background: black;
+    margin-left: 20px;
+}
+
+.about-me img{
+    margin-left: 240px;
+}
+
+.about-me p{
+    width: 500px;
+    height: 500px;
+    font-size: 2.5em;
+    font-weight: 500;
+    float: right;
+    margin-right: 140px;
+    margin-top: 100px;
+}
+
+.lees-meer{
+    position: absolute;
+    top: 1220px;
+    left: 957px;
+}
+
+.lees-meer img{
+    margin-left: 240px;
+    margin-top: -20px;
+    width: 50px;
+}
+
+.lees-meer h3{
+    font-size: 2em;
+    margin-top: 0px;
+    margin-right: 250px;
+}
+
+#projects{
+    width: 100%;
+    height: 98vh;
+}
+
+.titel-right h2{
+    font-size: 4em;
+    font-weight: 500;
+    margin-right: 45px;
+    margin-top: -42px;
+}
+
+.streepje-right{
+    width: 10px;
+    height: 50px;
+    background: black;
+    margin-left: 1073px;
+    margin-top: 50px;
+}
+
+.cont-projecten{
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+#gen-art{
+    width: 320px;
+    height: 450px;
+    float: left;
+}
+
+#gen-art:hover, #herkansing:hover, #ceramique:hover, #project:hover{
+    opacity: 0.5;
+}
+
+#herkansing{
+    width: 320px;
+    height: 450px;
+    float: left;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+#ceramique{
+    width: 320px;
+    height: 450px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 370px;
+}
+
+#project{
+    width: 320px;
+    height: 450px;
+    float: right;
+    margin-right: 23px;
+    margin-top: -300px;
+}
+
+.begin2{
+    margin-left: 8.7vw;
+    margin-top: 18vh;
+}
+
+.begin2 h1{
+    text-align: right;
+}
+
+
+.intro-c{
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.intro-c h1{
+    font-size: 7.5em;
+    margin-left: -58px;
+    margin-top: 37px;
+}
+
+.centre-intro{
+    width: 100%;
+    height: 700px;
+}
+
+.centre-intro h2{
+    margin-right: 450px;
+}
+
+.centre-intro h3{
+    font-weight: 400;
+    font-size: 2.5em;
+    width: 700px;
+    height: 300px;
+    margin-right: 120px;
+    margin-top: 140px;
+}
+
+.centre-intro img{
+    float: left;
+    width: 350px;
+    margin-left: 90px;
+    margin-top: 105px;
+}
+
+.centre-experience img{
+    width: 500px;
+    height: 300px;
+}
